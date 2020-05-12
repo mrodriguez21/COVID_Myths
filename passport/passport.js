@@ -1,3 +1,6 @@
+// Mariana Rodriguez: Good use of passport. Sessions seem to last for a short time (at least it did for me when testing the app).
+// There might be additional settings needed to fix this.
+
 const passport = require("passport");
 const LocalStrategy = require("passport-local").Strategy;
 
